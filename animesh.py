@@ -1,7 +1,8 @@
-def addNumbers(numberA, numberB):
-    return numberA + numberB
-
-
+def multiply(a, b):
+    return a * b
+def devide(a, b):
+    return a / b
 numberA = int(input("Enter a number: "))
 numberB = int(input("Enter another number: "))
-print("The sum of the two numbers is: ", addNumbers(numberA, numberB))
+print("The product is: ", multiply(numberA, numberB))
+print("The quotient is: ", devide(numberA, numberB))
